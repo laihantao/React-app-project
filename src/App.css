@@ -1,0 +1,165 @@
+.App{
+  height:auto;
+  width:100%;
+  font-family:Arial,Arial, Helvetica, sans-serif;
+}
+
+
+body{
+  margin:0%;
+  height:100;
+  background-image:url('https://wallpaperaccess.com/full/1267580.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+  
+}
+
+.title{
+  top:0%;
+  left:1%;
+  position:fixed;
+  font-size:8px;
+  font-weight:bold;
+  font-family:sans-serif;
+  text-transform: uppercase;
+  position:absolute;
+/*   background-image: linear-gradient(to right, #00F260,#f79d00,#0575e6,#64f38c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  background-size:300%;
+  background-position:-100%;
+  animation:animatedText 5s infinite alternate-reverse; */
+}
+
+
+
+@keyframes animatedText{
+
+  from{
+    background-position:0%;
+  }
+  to{
+    background-position:200%;
+  }
+}
+
+.cryptoHeader{
+  width:100%;
+  height: 150px;
+  /* background-image:linear-gradient(45deg,#845ec2b9,#d65db2b9,#ff6f91b2,#ff9771bd,#ffc75f,#f9f971); */
+  background-image:linear-gradient(90deg,rgba(255, 255, 255, 0.137),rgba(255, 255, 255, 0.568),rgba(255, 255, 255, 0.192));
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  white-space: pre-wrap;
+  border-radius: 20px;
+}
+
+.cryptoHeader input{
+  width:50%;
+  height: 50px;
+  border:none;
+  border-radius:20px;
+  background-color: white;
+  font-size:20px;
+  font-weight:bold;
+  color: black;
+  text-align:center;
+  margin-top: 10px;
+
+  
+}
+
+
+.cryptoContent{
+  margin-top:20px;
+  margin-bottom:20px;
+  justify-content:center;
+  align-items:center;
+
+}
+
+
+
+.coin{
+  
+  display: inline-block;
+  width:330px;
+  height:370px;
+  border-color:gold;
+  border-radius: 35px;
+  border:solid 2px;
+  background-color: rgb(36,36,36);
+  color:white;
+  margin:20px;
+  text-align: center;
+  grid-gap:30px;
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.151);
+  
+}
+
+.coin:hover{
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 217, 0);
+  border-color:gold;
+  width:330px;
+  height:370px;
+  border:solid 2px;
+  transition: background 0.5s ease-in-out;
+}
+
+
+.coin img{
+  
+  height:100px;
+}
+
+.coin h1{
+
+  font-size: 25px;
+
+}
+
+.coin h3{
+
+  font-size: 17px;
+}
+
+.timer1{
+  position: absolute;
+  top:10px;
+  right:0;
+  color:white;
+  padding-right: 15px;
+  font-size: 17px;
+
+}
+
+.timer2{
+  position: absolute;
+  top:30px;
+  right:0;
+  color:white;
+  padding-right: 15px;
+  font-size: 17px;
+  
+}
+
+
+.icon img{
+  height:40px;
+  text-align:left;
+}
+
+/* .twittericon img{
+  height:40px;
+  text-align:left;
+} */
+
+.projectname{
+  color: white;
+  text-align: center;
+  padding-bottom: 1%;
+}
