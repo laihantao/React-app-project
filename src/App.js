@@ -7,7 +7,9 @@ import Clock from 'react-live-clock';
 function App() {
 
   const [listOfCoins, setListOfCoins] = useState([]);
+  
   const [searchword, setSearchword] = useState("");
+
 
   useEffect (() =>{
     axios.get("https://api.coinstats.app/public/v1/coins?skip=0").then(
