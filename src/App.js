@@ -35,7 +35,7 @@ function App() {
       <div className="cryptoHeader">
 
         <div className='title'>
-          <h1>Real-time Cryptocurrency</h1>
+          <h1>Real-time Cryptocurrency </h1>
         </div>
         
         <div className='timer1'> 
